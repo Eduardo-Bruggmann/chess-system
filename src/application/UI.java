@@ -108,7 +108,7 @@ public class UI {
 			if (piece.getColor() == Color.WHITE) {
 				System.out.print(ANSI_WHITE + piece + ANSI_RESET);
 			} else {
-				System.out.print(ANSI_BLACK + piece + ANSI_RESET);
+				System.out.print(ANSI_CYAN + piece + ANSI_RESET);
 			}
 		}
 		System.out.print(" ");
@@ -123,7 +123,7 @@ public class UI {
 		System.out.println(Arrays.toString(white.toArray()));
 		System.out.print(ANSI_RESET);
 		System.out.print("Black: ");
-		System.out.print(ANSI_BLACK);
+		System.out.print(ANSI_CYAN);
 		System.out.println(Arrays.toString(black.toArray()));
 		System.out.print(ANSI_RESET);
 	}
